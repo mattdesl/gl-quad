@@ -33,19 +33,19 @@ Disposes the quad.
 
 ## members
 
-```quad.vertices```
+### ```quad.vertices```
 
 The vertex buffer.
 
-```quad.texcoords```
+### ```quad.texcoords```
 
 The texcoord buffer.
 
-```quad.elements```
+### ```quad.elements```
 
 The element buffer.
 
-```quad.vao```
+### ```quad.vao```
 
 The Vertex Array Object backing this quad.
 
