@@ -23,9 +23,11 @@ The passed shader is expected to have `position` and `uv` attributes.
 
 Creates a new quad with position and texcoord buffers.
 
-### ```quad.draw(shader)```
+### ```quad.draw([shader])```
 
 Draws the quad with a gl-shader. The passed shader should have `position` and `uv` pointers (`vec2`).
+
+If a shader is not passed, it's assumed that you've already bound a shader and its vertex pointers.
 
 ### ```quad.dispose()```
 
