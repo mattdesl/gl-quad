@@ -43,13 +43,8 @@ function Quad(gl) {
 }
 
 Quad.prototype.draw = function(shader) {
-    if (shader) {
+    if (shader) 
         shader.bind()
-        if (shader.attributes.position)
-            shader.attributes.position.pointer()
-        if (shader.attributes.uv)
-            shader.attributes.uv.pointer()
-    }
     this.vao.bind()
     this.vao.draw(gl.TRIANGLES, 6)
     this.vao.unbind()

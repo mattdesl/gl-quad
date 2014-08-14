@@ -25,9 +25,9 @@ Creates a new quad with position and texcoord buffers.
 
 ### ```quad.draw([shader])```
 
-Draws the quad with a gl-shader. The passed shader should have `position` and `uv` pointers (`vec2`).
+Draws the quad with a gl-shader. 
 
-If a shader is not passed, it's assumed that you've already bound a shader and its vertex pointers.
+If a shader is not passed, it's assumed that you've already bound a shader.
 
 ### ```quad.dispose()```
 
