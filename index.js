@@ -46,7 +46,7 @@ Quad.prototype.draw = function(shader) {
     if (shader) 
         shader.bind()
     this.vao.bind()
-    this.vao.draw(gl.TRIANGLES, 6)
+    this.vao.draw(this.gl.TRIANGLES, 6)
     this.vao.unbind()
 }
 
