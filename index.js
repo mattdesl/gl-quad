@@ -31,7 +31,7 @@ function Quad(gl) {
         { 
             buffer: this.vertices,
             size: 2,
-            noramlized: false,
+            normalized: false,
         },
         {
             buffer: this.texcoords,
